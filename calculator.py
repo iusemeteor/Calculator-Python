@@ -1,39 +1,77 @@
 def adding():
-    first = input("What's the first number you would like to add? ")
-    second = input("What's the first number you would like to add? ")
-    first = int(first)
-    second = int(second)
-    answer = first + second
-    answer = str(answer)
-    print("The answer is " + answer + ".")
-
+    while True:
+        global first
+        global second
+        first = input("What's the first number you would like to multiply? ")
+        if not first.isdigit():
+            print("That's not an integer.")
+        else:
+            second = input("What's the second number you would like to multiply? ")
+            if not second.isdigit():
+                print("That's not an integer.")
+            else:
+                first = int(first)
+                second = int(second)
+                answer = first + second
+                answer = str(answer)
+                print("The answer is " + answer + ".")
+                exit()
 def subtract():
-    first = input("What's the first number you would like to subtract? ")
-    second = input("What's the first number you would like to subtract? ")
-    first = int(first)
-    second = int(second)
-    answer = first - second
-    answer = str(answer)
-    print("The answer is " + answer + ".")
-
+    while True:
+        global first
+        global second
+        first = input("What's the first number you would like to multiply? ")
+        if not first.isdigit():
+            print("That's not an integer.")
+        else:
+            second = input("What's the second number you would like to multiply? ")
+            if not second.isdigit():
+                print("That's not an integer.")
+            else:
+                first = int(first)
+                second = int(second)
+                answer = first - second
+                answer = str(answer)
+                print("The answer is " + answer + ".")
+                exit()
 def multiply():
-    first = input("What's the first number you would like to multiply? ")
-    second = input("What's the first number you would like to multiply? ")
-    first = int(first)
-    second = int(second)
-    answer = first * second
-    answer = str(answer)
-    print("The answer is " + answer + ".")
-
+    while True:
+        global first
+        global second
+        first = input("What's the first number you would like to multiply? ")
+        if not first.isdigit():
+            print("That's not an integer.")
+        else:
+            second = input("What's the second number you would like to multiply? ")
+            if not second.isdigit():
+                print("That's not an integer.")
+            else:
+                first = int(first)
+                second = int(second)
+                answer = first * second
+                answer = str(answer)
+                print("The answer is " + answer + ".")
+                exit()
 def division():
-    first = input("What's the first number you would like to divide? ")
-    second = input("What's the first number you would like to divide? ")
-    first = int(first)
-    second = int(second)
-    answer = first / second
-    answer = str(answer)
-    print("The answer is " + answer + ".")
-
+    while True:
+        global first
+        global second
+        first = input("What's the first number you would like to divide? ")
+        if not first.isdigit():
+            print("That's not an integer.")
+        else:
+            second = input("What's the second number you would like to divide? ")
+            if not second.isdigit():
+                print("That's not an integer.")
+            elif int(second) == 0:
+                print("You cannot divide by 0.")
+            else:
+                first = int(first)
+                second = int(second)
+                answer = first / second
+                answer = str(answer)
+                print("The answer is " + answer + ".")
+                exit()
 def main():
     print("Choose a mode:")
     print("1. Adding")
