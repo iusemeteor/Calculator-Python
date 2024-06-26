@@ -2,11 +2,11 @@ def adding():
     while True:
         global first
         global second
-        first = input("What's the first number you would like to multiply? ")
+        first = input("What's the first number you would like to add? ")
         if not first.isdigit():
             print("That's not an integer.")
         else:
-            second = input("What's the second number you would like to multiply? ")
+            second = input("What's the second number you would like to add? ")
             if not second.isdigit():
                 print("That's not an integer.")
             else:
@@ -20,11 +20,11 @@ def subtract():
     while True:
         global first
         global second
-        first = input("What's the first number you would like to multiply? ")
+        first = input("What's the first number you would like to subtract? ")
         if not first.isdigit():
             print("That's not an integer.")
         else:
-            second = input("What's the second number you would like to multiply? ")
+            second = input("What's the second number you would like to subtract? ")
             if not second.isdigit():
                 print("That's not an integer.")
             else:
