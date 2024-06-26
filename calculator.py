@@ -5,7 +5,7 @@ def adding():
     second = int(second)
     answer = first + second
     answer = str(answer)
-    print("The answer is " + answer)
+    print("The answer is " + answer + ".")
 
 
 def subtract():
@@ -15,7 +15,7 @@ def subtract():
     second = int(second)
     answer = first - second
     answer = str(answer)
-    print("The answer is " + answer)
+    print("The answer is " + answer + ".")
 
 
 def multiply():
@@ -25,7 +25,7 @@ def multiply():
     second = int(second)
     answer = first * second
     answer = str(answer)
-    print("The answer is " + answer)
+    print("The answer is " + answer + ".")
 
 
 def division():
@@ -35,7 +35,7 @@ def division():
     second = int(second)
     answer = first / second
     answer = str(answer)
-    print("The answer is " + answer)
+    print("The answer is " + answer + ".")
 
 def main():
     print("Choose a mode:")
