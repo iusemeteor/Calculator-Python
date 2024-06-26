@@ -8,3 +8,6 @@ This is a simple command-line calculator I made in Python. It allows you to perf
 - **Subtraction**: Subtract one number from another.
 - **Multiplication**: Multiply two numbers.
 - **Division**: Divide one number by another.
+
+## TODO:
+- Add decimal integers compatability
