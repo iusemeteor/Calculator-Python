@@ -9,5 +9,5 @@ This is a simple command-line calculator I made in Python. It allows you to perf
 - **Multiplication**: Multiply two numbers.
 - **Division**: Divide one number by another.
 
-## TODO:
+## TODO
 - Add decimal integers compatability
